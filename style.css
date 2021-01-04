@@ -404,21 +404,20 @@ body {
         padding: 20px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .main-banner__motto-paragraph {
         font-size: var(--font-size-two);
         padding: 10px;
     }
 }
+
 @media screen and (max-width: 540px) {
     .main-banner__motto-paragraph {
         font-size: var(--font-size-four);
         padding: 10px;
     }
 }
-
-
-
 
 /* Section_wrap-about-us */
 
@@ -549,13 +548,13 @@ body {
     transform: perspective(1px) translateZ(0);
     transition-duration: .3s;
 }
-.wrap-about-us__images{
-     display: flex;
-     flex-direction: row;
-     justify-items: center;
+
+.wrap-about-us__images {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
     align-items: center;
     margin: 0 auto;
-     
 }
 
 /* Section_wrap-icons */
@@ -729,7 +728,7 @@ body {
     justify-content: center;
     border: none;
     /* background-color: var(--background-color-seventh); */
-    background: url(images/hands.jpg) ;
+    background: url(images/hands.jpg);
     background-size: cover;
 }
 
