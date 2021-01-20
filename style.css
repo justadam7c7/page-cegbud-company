@@ -51,7 +51,7 @@ body {
     z-index: 5;
 }
 
-.navbar {
+.nav-container__navbar {
     display: grid;
     grid-template-columns: 0.2fr auto 1fr;
     align-items: center;
@@ -62,7 +62,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .navbar {
+    .nav-container__navbar {
         position: fixed;
         top: 0;
         left: 0;
@@ -153,7 +153,7 @@ body {
         color: var(--color-fourth);
         transition: all 0.4s ease-out;
     }
-    .navbar {
+    .nav-container__navbar {
         width: 100%;
     }
     #mobile-menu {
